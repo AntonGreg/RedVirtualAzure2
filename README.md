@@ -55,7 +55,14 @@ Escribimos el siguiente comando:
 
 *New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4*
 
-![](img\img6.png)
-
 Podemos comprobar que la regla se ha ejecutado con éxito. Ahora comprobaremos la conexión haciendo ping entre las máquinas:
 
+La Vm1 a la Vm2: 
+
+![](img/img7.png)
+
+
+
+La Vm2 a la Vm1:
+
+![](img/img8.png)
